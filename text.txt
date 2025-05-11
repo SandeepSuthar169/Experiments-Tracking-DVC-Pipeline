@@ -1,0 +1,5 @@
+- data load 
+- run app.py file 
+1. git init
+2. dvc init
+3. dvc add .\data\medical_insurance.csv
