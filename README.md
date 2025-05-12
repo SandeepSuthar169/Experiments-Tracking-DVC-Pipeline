@@ -11,8 +11,9 @@ Experiments-Tracking-DVC-Pipeline/
 ├── .dvc/                  # DVC configuration and cache
 ├── data/                  # Directory for datasets
 ├── src/                   # Source code for data processingand modeling
-├    └── app.py           #  Python file with Experiments with DVC Pipeline
-├
+│    └── app.py           #  Python file with Experiments with DVC Pipeline
+│
+│
 ├── .dvcignore             # Files and directories ignored by DVC
 ├── .gitignore             # Files and directories ignored by Git
 ├── requirements.txt       # Python dependencies
