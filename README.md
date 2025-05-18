@@ -29,13 +29,13 @@ Prerequisites
 ##  Installation
 1. Clone the repository:
 ```
-- git clone https://github.com/SandeepSuthar169/Experiments-Tracking-DVC-Pipeline.git
-- cd Experiments-Tracking-DVC-Pipeline
+git clone https://github.com/SandeepSuthar169/Experiments-Tracking-DVC-Pipeline.git
+cd Experiments-Tracking-DVC-Pipeline
 ```
 2. Install the required Python packages:
 
 ```
-- pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
