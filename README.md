@@ -28,21 +28,22 @@ Prerequisites
 
 ##  Installation
 1. Clone the repository:
-
-- `git clone https://github.com/SandeepSuthar169/Experiments-Tracking-DVC-Pipeline.git`
-- `cd Experiments-Tracking-DVC-Pipeline`
-
+```
+- git clone https://github.com/SandeepSuthar169/Experiments-Tracking-DVC-Pipeline.git
+- cd Experiments-Tracking-DVC-Pipeline
+```
 2. Install the required Python packages:
 
-
-`pip install -r requirements.txt`
-
+```
+- pip install -r requirements.txt
+```
 
 
 3. Initialize DVC and Pull Data
-
-`dvc init`
-`dvc pull`
+```
+dvc init
+dvc pull
+```
 - Ensure you have access to the remote storage configured in the DVC setup.
 
 
@@ -52,21 +53,22 @@ The src/ directory is intended for your data processing and modeling scripts. Yo
 Example:
 
 1. Create a DVC stage for data preprocessing:
-
-`dvc run -n preprocess \
+```
+dvc run -n preprocess \
         -d src/preprocess.py -d data/raw \
         -o data/processed \
-        python src/preprocess.py data/raw data/processed`
-
+        python src/preprocess.py data/raw data/processed
+```
 
 2. Create a DVC stage for model training:
 
 
-`dvc run -n train_model \
+```
+dvc run -n train_model \
         -d src/train.py -d data/processed \
         -o models/model.pkl \
-        python src/train.py data/processed models/model.pkl`
-
+        python src/train.py data/processed models/model.pkl
+```
 3. Visualize the pipeline:
 
 
