@@ -1,5 +1,5 @@
 ## Experiments Tracking with DVC Pipeline
-This project demonstrates how to set up and manage machine learning experiments using DVC (Data Version Control). It provides a structured approach to track data, code, and experiments efficiently.
+This project demonstrates how to set up and manage machine learning experiments using DVC (Data Version Control). It provides a structured approach to track data, code, and experiments efficiently .
 
 
 ### ​ Project Structure
